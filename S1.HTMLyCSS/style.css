@@ -1,0 +1,101 @@
+body {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 2vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+header{
+    border: 8px black solid;
+    border-bottom: 2px black solid;
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(55, 59, 55);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#one{
+    border: 1px red solid;
+    width: 20%;
+    height: 70%;
+    background-color: rgb(201, 75, 75);
+}
+#two{
+    border: 1px red solid;
+    width: 50%;
+    height: 70%;
+    background-color: rgb(201, 75, 75);
+}
+#three{
+    border: 1px red solid;
+    width: 20%;
+    height: 70%;
+    background-color: rgb(201, 75, 75);
+}
+nav{
+    border: 8px black solid;
+    border-top: 2px black solid;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(225, 145, 32);
+}
+#four{
+    border: 1px red solid;
+    width: 97%;
+    height: 70%;
+    background-color: rgb(234, 221, 78);
+}
+article{
+    border: 8px black solid;
+    border-right: 4px black solid;
+    width: 60%;
+    height: 30vh;
+    margin-top: 2vh;
+    background-color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.news{
+    border: 1px blue solid;
+    width: 40%;
+    height: 20%;
+    background-color: rgb(84, 84, 218);
+}
+.last-news{
+    border: 1px blue solid;
+    width: 90%;
+    height: 20%;
+    background-color: rgb(129, 129, 208);
+}
+aside{
+    border: 8px black solid;
+    border-left: 4px black solid;
+    width: 38%;
+    height: 30vh;
+    margin-top: 2vh;
+    background-color: rgb(197, 57, 57);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+}
+.publicity{
+    border: 1px yellow solid;
+    width: 90%;
+    height: 20%;
+    margin-top: 2vh;
+    background-color: rgb(230, 216, 65); 
+}
+footer{
+    border: 8px black solid;
+    width: 100%;
+    height: 10vh;
+    margin-top: 2vh;
+    background-color: rgb(163, 163, 79);
+}
